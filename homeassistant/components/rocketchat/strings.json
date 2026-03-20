@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rocket.Chat verbinden",
+        "description": "Verbinde Home Assistant mit deinem Rocket.Chat Server.",
+        "data": {
+          "url": "Server-URL",
+          "user_id": "Benutzer-ID",
+          "token": "Persönlicher Token"
+        }
+      },
+      "channels": {
+        "title": "Kanäle auswählen",
+        "description": "Wähle die Kanäle aus, die als Ereignisse verfügbar sein sollen.",
+        "data": {
+          "channels": "Kanäle"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen. Bitte Daten prüfen.",
+      "no_channels": "Keine Kanäle gefunden."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Kanäle aktualisieren",
+        "data": {
+          "channels": "Aktive Kanäle"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen.",
+      "no_channels": "Keine Kanäle gefunden."
+    }
+  }
+}

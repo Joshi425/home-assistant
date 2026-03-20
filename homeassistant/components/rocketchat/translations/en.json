@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Rocket.Chat",
+        "description": "Connect Home Assistant to your Rocket.Chat server.",
+        "data": {
+          "url": "Server URL",
+          "user_id": "User ID",
+          "token": "Personal token"
+        }
+      },
+      "channels": {
+        "title": "Select channels",
+        "description": "Choose the channels to expose as event entities.",
+        "data": {
+          "channels": "Channels"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Please check the details.",
+      "no_channels": "No channels were found."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update channels",
+        "data": {
+          "channels": "Active channels"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect.",
+      "no_channels": "No channels were found."
+    }
+  }
+}
